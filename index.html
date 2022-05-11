@@ -16,18 +16,18 @@
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="conteyner-nav">
 				<a class="style-logo" href="">
 					<span class="style-web">Web</span>
 					<span class="style-studio">Studio</span>
 				</a>
-				<ul class="list-text-nav">
+				<ul class="list-text-nav list-flex">
 					<li class="list"><a class="list-link active" href="./index.html">Студия</a></li>
 					<li class="list"><a class="list-link" href="./portfolio.html">Портфолио</a></li>
 					<li class="list"><a class="list-link" href="">Контакты</a></li>
 				</ul>
-			</nav>
-			<ul class="list-contact-nav">
+			
+			  <ul class="list-contact-nav list-flex">
 				<li class="list">
 					<a class="list-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
 				</li>
@@ -35,15 +35,16 @@
 					<a class="list-contact" href="tel:+380961111111">+38 096 111 11 11</a>
 				</li>
 			</ul>
+			</nav>
 		</header>
 		<main>
-			<section>
+			<section class="hero">
 				<h1 class="text-hero">Эффективные решения для вашего бизнеса</h1>
 				<button class="button-hero" type="button">Заказать услугу</button>
 			</section>
-			<section>
+			<section class="specifics-section">
 				<h2>Особенности</h2>
-				<ul>
+				<ul class="specifics-flex">
 					<li class="list">
 						<h3 class="specifics">Внимание к деталям</h3>
 						<p class="specifics-text">
@@ -68,9 +69,9 @@
 					</li>
 				</ul>
 			</section>
-			<section>
+			<section class="images">
 				<h2 class="title">Чем мы занимаемся</h2>
-				<ul>
+				<ul class="images-flex">
 					<li class="list">
 						<img src="./images/box-1.jpg" width="370" alt="работа на клавиатуре" />
 					</li>
@@ -82,9 +83,9 @@
 					</li>
 				</ul>
 			</section>
-			<section>
+			<section class="team">
 				<h2 class="title">Наша команда</h2>
-				<ul>
+				<ul class="team-flex">
 					<li class="list">
 						<img src="./images/img-10.jpg" width="270" alt="картинка 1" />
 						<h3 class="name">Игорь Демьяненко</h3>
@@ -108,7 +109,7 @@
 				</ul>
 			</section>
 		</main>
-		<footer>
+		<footer class="footer">
 			<a class="style-logo" href="">
 				<span class="style-web">Web</span>
 				<span class="style-studio">Studio</span>

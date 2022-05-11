@@ -17,18 +17,18 @@
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="conteyner-nav">
 				<a class="style-logo" href="">
 					<span class="style-web">Web</span>
 					<span class="style-studio">Studio</span>
 				</a>
-				<ul class="list-text-nav">
-					<li class="list"><a class="list-link" href="./index.html">Студия</a></li>
-					<li class="list"><a class="list-link active" href="./portfolio.html">Портфолио</a></li>
+				<ul class="list-text-nav list-flex">
+					<li class="list"><a class="list-link active" href="./index.html">Студия</a></li>
+					<li class="list"><a class="list-link" href="./portfolio.html">Портфолио</a></li>
 					<li class="list"><a class="list-link" href="">Контакты</a></li>
 				</ul>
-			</nav>
-			<ul class="list-contact-nav">
+			
+			  <ul class="list-contact-nav list-flex">
 				<li class="list">
 					<a class="list-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
 				</li>
@@ -36,17 +36,19 @@
 					<a class="list-contact" href="tel:+380961111111">+38 096 111 11 11</a>
 				</li>
 			</ul>
+			</nav>
 		</header>
+
 		<main>
 			<h1>Подборка</h1>
-			<ul>
+			<ul class="button-flax">
 				<li class="list"><button class="button-link" type="button">Все</button></li>
 				<li class="list"><button class="button-link" type="button">Веб-сайты</button></li>
 				<li class="list"><button class="button-link" type="button">Приложения</button></li>
 				<li class="list"><button class="button-link" type="button">Дизайн</button></li>
 				<li class="list"><button class="button-link" type="button">Маркетинг</button></li>
 			</ul>
-			<ul>
+			<ul class="portfolio-flax">
 				<li class="list">
 					<a><img src="./images/img.jpg" width="370" alt="фото на ноутбуке" />
 					<h2 class="portfolio-name-picture">Технокряк</h2>
@@ -94,7 +96,7 @@
 				</li>
 			</ul>
 		</main>
-		<footer>
+			<footer class="footer">
 			<a class="style-logo" href="">
 				<span class="style-web">Web</span>
 				<span class="style-studio">Studio</span>
