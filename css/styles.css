@@ -60,6 +60,13 @@ body {
   margin-right: 0;
 }
 
+.list-nav {
+	margin-right: 50px;
+}
+.list-nav:last-child {
+  margin-right: 0;
+}
+
 
 .list-link:focus,
 .list-link:hover {
@@ -87,6 +94,8 @@ body {
 
 .list-contact-nav {
 	margin-left: auto;
+	display: flex;
+	padding-left: 0;
 }
 
 
@@ -130,9 +139,8 @@ body {
 .list-text-nav {
 	font-weight: 500;	
 	line-height: 1.14;
-	margin-left: 0;
-	padding-inline-start: 0;
-  width: 295px;
+	display: flex;
+	padding-left: 0;
 }
 
 .list-contact:focus,
