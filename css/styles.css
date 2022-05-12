@@ -82,11 +82,6 @@ body {
 	padding-bottom: 32px;
 }
 
-.list-flex {
-  display: flex;
-	justify-content: space-between;
-}
-
 .conteyner-nav {
   display: flex;
   align-items: center;
